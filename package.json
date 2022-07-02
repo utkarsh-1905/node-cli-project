@@ -1,10 +1,10 @@
 {
-	"name": "Buddy CLI",
+	"name": "Buddy",
 	"description": "Personal Assistant",
 	"version": "0.0.1",
 	"license": "UNLICENSED",
 	"bin": {
-		"budy": "./index.js"
+		"buddy": "./index.js"
 	},
 	"author": {
 		"name": "Utkarsh Tripathi",

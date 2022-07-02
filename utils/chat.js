@@ -1,5 +1,5 @@
 const io = require('socket.io-client');
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://node-cli-chat-server.herokuapp.com/');
 const chalk = require('chalk');
 const repl = require('repl');
 
