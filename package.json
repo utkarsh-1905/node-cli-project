@@ -1,10 +1,10 @@
 {
-	"name": "buddy",
-	"description": "Personal Assistant",
+	"name": "bhidu",
+	"description": "Abhi maja aaega na bhidu !!",
 	"version": "1.0.0",
 	"license": "UNLICENSED",
 	"bin": {
-		"buddy": "./index.js"
+		"bhidu": "./index.js"
 	},
 	"author": {
 		"name": "Utkarsh Tripathi",
