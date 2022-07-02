@@ -1,7 +1,7 @@
 {
 	"name": "bhidu",
 	"description": "Abhi maja aaega na bhidu !!",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"license": "UNLICENSED",
 	"bin": {
 		"bhidu": "./index.js"
@@ -21,6 +21,10 @@
 	],
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/utkarsh-1905/node-cli-project"
 	},
 	"dependencies": {
 		"axios": "^0.27.2",

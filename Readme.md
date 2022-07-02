@@ -4,6 +4,7 @@
 npm i -g bhidu
 
 ```
+- [Link to NPM Package](https://www.npmjs.com/package/bhidu)
 ---
 
  # Commands
