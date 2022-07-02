@@ -1,0 +1,39 @@
+{
+	"name": "Buddy CLI",
+	"description": "Personal Assistant",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"budy": "./index.js"
+	},
+	"author": {
+		"name": "Utkarsh Tripathi",
+		"email": "utripathi2002@gmail.com",
+		"url": "https://utkarshdev.netlify.app"
+	},
+	"keywords": [
+		"node cli",
+		"CLI"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0",
+		"socket.io-client": "^4.5.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
