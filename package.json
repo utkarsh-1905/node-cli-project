@@ -1,7 +1,7 @@
 {
-	"name": "@utkarsh-1905/node-cli-project",
+	"name": "@utkarsh1905/node-cli-project",
 	"description": "Development Automation Tool",
-	"version": "v1.0.3",
+	"version": "1.0.1",
 	"license": "MIT",
 	"bin": {
 		"dat": "./index.js"
@@ -23,13 +23,7 @@
 		"test": "exit 0",
 		"format": "prettier --write \"./**/*.{js,json}\""
 	},
-	"publishConfig": {
-		"@utkarsh-1905:registry": "https://npm.pkg.github.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/utkarsh-1905/node-cli-project"
-	},
+	"repository": "git://github.com/utkarsh-1905/node-cli-project.git",
 	"dependencies": {
 		"axios": "^0.27.2",
 		"chalk": "^4.1.2",
