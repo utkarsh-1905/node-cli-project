@@ -17,6 +17,7 @@ const { clear, debug } = flags;
 
 const { showJoke } = require('./utils/joke');
 const chat = require('./utils/chat');
+const ping = require('./utils/ping');
 
 (async () => {
 	try {
@@ -34,6 +35,9 @@ const chat = require('./utils/chat');
 		}
 		if ((input.length === 1) & input.includes(`chat`)) {
 			chat(flags.username, flags.room, flags.color);
+		}
+		if ((input.length === 1) & input.includes(`ping`)) {
+			ping();
 		}
 
 		debug && log(flags);

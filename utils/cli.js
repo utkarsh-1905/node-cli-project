@@ -57,7 +57,8 @@ const flags = {
 const commands = {
 	help: { desc: `Print help info` },
 	joke: { desc: `Prints a random Chuck Norris joke` },
-	chat: { desc: `To start chatting` }
+	chat: { desc: `To start chatting` },
+	ping: { desc: `To check the server status` }
 };
 
 const helpText = meowHelp({
