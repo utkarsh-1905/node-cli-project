@@ -1,5 +1,5 @@
 {
-	"name": "@utkarsh-1905/dat",
+	"name": "@utkarsh-1905/node-cli-project",
 	"description": "Development Automation Tool",
 	"version": "v1.0.0",
 	"license": "MIT",
@@ -20,7 +20,7 @@
 		"utils"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\"",
+		"test": "exit 0",
 		"format": "prettier --write \"./**/*.{js,json}\""
 	},
 	"publishConfig": {
