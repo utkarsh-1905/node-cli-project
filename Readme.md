@@ -20,6 +20,9 @@ Currently, this tool includes chat functionality, but it can be extended to incl
 ---
  # Commands
 
+#### `dat help`
+- It will list out all commands and relevant flags to get started.
+
  #### `dat joke`
  - It give a random chuck norris joke
  - Use `dat joke -a` to get all joke categories
