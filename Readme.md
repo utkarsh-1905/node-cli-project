@@ -1,10 +1,10 @@
 # Installation
 
 ```
-npm i -g @utkarsh-1905/dat
+npm i -g @utkarsh-1905/node-cli-project
 
 ```
-- [Link to NPM Package](https://www.npmjs.com/package/bhidu)
+- [Link to NPM Package](https://github.com/utkarsh-1905/node-cli-project/packages/1517997)
 ---
 
  # Commands
