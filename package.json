@@ -1,7 +1,7 @@
 {
-	"name": "dat",
+	"name": "@utkarsh-1905/dat",
 	"description": "Development Automation Tool",
-	"version": "1.0.0",
+	"version": "v1.0.0",
 	"license": "MIT",
 	"bin": {
 		"dat": "./index.js"
@@ -21,6 +21,9 @@
 	],
 	"scripts": {
 		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"publishConfig": {
+		"@utkarsh-1905:registry": "https://npm.pkg.github.com"
 	},
 	"repository": {
 		"type": "git",
