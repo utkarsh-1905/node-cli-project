@@ -27,7 +27,7 @@ const flags = {
 	joke: {
 		type: `string`,
 		alias: 'j',
-		default: 'explicit',
+		default: 'history',
 		desc: 'Category of joke'
 	},
 	alljoke: {
@@ -61,7 +61,7 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `ut`,
+	name: `bhidu`,
 	flags,
 	commands
 });
