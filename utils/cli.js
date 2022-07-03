@@ -62,7 +62,7 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `bhidu`,
+	name: `dat`,
 	flags,
 	commands
 });
