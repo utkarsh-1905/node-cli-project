@@ -20,7 +20,7 @@
 		"utils"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 0",
+		"test": "echo \"Error: no test specified\"",
 		"format": "prettier --write \"./**/*.{js,json}\""
 	},
 	"publishConfig": {
