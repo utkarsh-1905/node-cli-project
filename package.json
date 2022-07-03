@@ -1,10 +1,10 @@
 {
-	"name": "bhidu",
+	"name": "dat",
 	"description": "Abhi maja aaega na bhidu !!",
-	"version": "2.1.0",
-	"license": "UNLICENSED",
+	"version": "1.0.0",
+	"license": "MIT",
 	"bin": {
-		"bhidu": "./index.js"
+		"dat": "./index.js"
 	},
 	"author": {
 		"name": "Utkarsh Tripathi",
