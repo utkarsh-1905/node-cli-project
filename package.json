@@ -1,7 +1,7 @@
 {
 	"name": "@utkarsh1905/node-cli-project",
 	"description": "Development Automation Tool",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"license": "MIT",
 	"bin": {
 		"dat": "./index.js"
