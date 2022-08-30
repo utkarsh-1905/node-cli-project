@@ -34,6 +34,10 @@ Currently, this tool includes chat functionality, but it can be extended to incl
  - Type `/help` to get all commands in the chat room
  (Heroku server might be sleeping, try with `dat ping`)
 
+#### `dat generator`
+ - It will bootstrap a new project 
+ - It will create a new directory with all files
+
  ---
 
  # Languages/Frameworks
@@ -41,4 +45,5 @@ Currently, this tool includes chat functionality, but it can be extended to incl
  - Socket.io
  - chalk
  - axios
+ - inquirer
  - create-node-cli

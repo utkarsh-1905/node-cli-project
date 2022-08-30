@@ -55,7 +55,12 @@ function generateTemplate(answers) {
 			const stats = fs.statSync(origPath);
 			if (stats.isFile()) {
 				let contents = fs.readFileSync(origPath, 'utf8');
-				const writePath = path.join(__dirname, projectPath, file);
+				const writePath = path.join(
+					__dirname,
+					'../',
+					projectPath,
+					file
+				);
 				fs.writeFileSync(writePath, contents, 'utf-8');
 			}
 		});
