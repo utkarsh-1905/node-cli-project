@@ -19,20 +19,23 @@ const chalk = require('chalk');
 const { showJoke } = require('./utils/joke');
 const chat = require('./utils/chat');
 const ping = require('./utils/ping');
+const { generator } = require('./utils/generator');
 
 (async () => {
 	try {
 		init({ clear });
 		if (input.length === 0) {
 			process.exit(0);
-		} else if ((input.length === 1) & input.includes(`help`)) {
+		} else if (input.length === 1 && input.includes(`help`)) {
 			cli.showHelp(0);
-		} else if ((input.length === 1) & input.includes(`joke`)) {
+		} else if (input.length === 1 && input.includes(`joke`)) {
 			showJoke(flags.joke, flags.alljoke);
-		} else if ((input.length === 1) & input.includes(`chat`)) {
+		} else if (input.length === 1 && input.includes(`chat`)) {
 			chat(flags.username, flags.room, flags.color);
-		} else if ((input.length === 1) & input.includes(`ping`)) {
+		} else if (input.length === 1 && input.includes(`ping`)) {
 			ping();
+		} else if (input.length === 1 && input.includes(`generator`)) {
+			generator();
 		} else {
 			console.log(chalk.red('Invalid command'));
 			process.exit(0);
