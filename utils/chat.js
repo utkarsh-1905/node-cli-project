@@ -1,7 +1,7 @@
 const io = require('socket.io-client');
-// https://chat-server-utkarsh-1905.vercel.app/
-//https://node-cli-chat-server.herokuapp.com/
-const socket = io.connect('https://node-cli-chat-server.herokuapp.com/');
+//https://node-cli-chat-server.herokuapp.com/ --> removed
+//https://node-chat-server-qkuiprdusq-em.a.run.app
+const socket = io.connect('https://node-chat-server-qkuiprdusq-em.a.run.app');
 const chalk = require('chalk');
 const repl = require('repl');
 
