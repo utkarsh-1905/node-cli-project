@@ -1,0 +1,4 @@
+{
+	"setup": "Run `npm install` to install dependencies.",
+	"changes": "Change the mongoDB connection string in my.env"
+}

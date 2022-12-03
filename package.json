@@ -1,7 +1,7 @@
 {
 	"name": "@utkarsh1905/node-cli-project",
 	"description": "Development Automation Tool",
-	"version": "4.0.0",
+	"version": "4.2.0",
 	"license": "MIT",
 	"bin": {
 		"dat": "./index.js"
@@ -17,7 +17,8 @@
 	],
 	"files": [
 		"index.js",
-		"utils"
+		"utils",
+		"template"
 	],
 	"scripts": {
 		"test": "exit 0",

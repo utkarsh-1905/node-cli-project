@@ -16,10 +16,10 @@ const flags = cli.flags;
 const { clear, debug } = flags;
 const chalk = require('chalk');
 
-const { showJoke } = require('./utils/joke');
-const chat = require('./utils/chat');
-const ping = require('./utils/ping');
-const { generator } = require('./utils/generator');
+const { showJoke } = require('./utils/custom/joke');
+const chat = require('./utils/custom/chat');
+const ping = require('./utils/custom/ping');
+const { generator } = require('./utils/custom/generator');
 
 (async () => {
 	try {
