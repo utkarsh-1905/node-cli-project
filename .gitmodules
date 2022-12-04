@@ -1,0 +1,3 @@
+[submodule "chat-server-for-cli"]
+	path = chat-server-for-cli
+	url = https://github.com/utkarsh-1905/chat-server-for-cli.git

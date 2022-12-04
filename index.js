@@ -4,7 +4,7 @@
  * Utkarsh
  * Automation
  *
- * @author Utkarsh Tripathi <https://utkarshdev.netlify.app>
+ * @author Utkarsh Tripathi <https://utkarsh.ninja>
  */
 
 const init = require('./utils/init');

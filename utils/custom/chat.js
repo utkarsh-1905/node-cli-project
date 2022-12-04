@@ -1,6 +1,6 @@
 const io = require('socket.io-client');
 //https://node-cli-chat-server.herokuapp.com/ --> removed
-//https://node-chat-server-qkuiprdusq-em.a.run.app
+//https://node-chat-server-qkuiprdusq-em.a.run.app --> gcp cloud run
 const socket = io.connect('https://node-chat-server-qkuiprdusq-em.a.run.app');
 const chalk = require('chalk');
 const repl = require('repl');
