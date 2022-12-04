@@ -1,7 +1,7 @@
 # Installation
 
 ```
-npm i -g @utkarsh1905/node-cli-project
+npm i -g @utkarsh1905/node-cli-project@latest
 
 ```
 - [Link to NPM Package](https://www.npmjs.com/package/@utkarsh1905/node-cli-project)
@@ -11,9 +11,10 @@ npm i -g @utkarsh1905/node-cli-project
 
 This CLI project is inspired to create daily developement and collaboration easy. We developers always live in the terminal, so why not create an assistant in the terminal?
 Currently, this tool includes chat functionality, but it can be extended to include other features, for example:
-- To bootstrap multiple type of projects
+
+- To bootstrap multiple type of projects - [functionality done]
 - To call and test API's in a user friendly way with various options
-- To track on going projects in an organization 
+- To track on going projects in an organization
 - Add a local storage for user creadentials
 - A focus mode to block certain websites/apps on pc
 
