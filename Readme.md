@@ -48,3 +48,15 @@ Currently, this tool includes chat functionality, but it can be extended to incl
  - axios
  - inquirer
  - create-node-cli
+
+ # Credits
+- This projects uses [Chuck Norris Jokes API](https://api.chucknorris.io/)
+- This project was bootstrapped with [Create Node CLI](https://www.npmjs.com/package/create-node-cli) tool.
+
+ # License
+ - MIT
+
+ # Author
+ - Utkarsh Tripathi
+ - [Github](https://github.com/utkarsh-1905)
+ - [Linkedin](https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/)
